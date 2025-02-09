@@ -2,7 +2,7 @@ import streamlit as st
 
 import pandas as pd
 import plotly.express as px
-from requests import delete
+
 
 from db_fxn import (create_table,add_data,view_all_data,get_task,view_unique_task,edit_task_data,delete_data)
 
